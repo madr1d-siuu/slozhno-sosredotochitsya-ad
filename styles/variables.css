@@ -2,3 +2,34 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+/* Файл style.css */
+:root {
+  --cover__background__image: url(../images/cover-image-dark.png);
+
+  --light__red: #FF0070;
+  --header__font__color: #DB00FF;
+  --dark__blue: #000028;
+  --light__pink: #F1B2CE;
+  --main__background__color: #000028;
+
+  --header__text__shadow: 4px 4px 0 #FF0070;
+  --footer__text__shadow: 2px 2px 0 #FF0070;
+
+  --button__color: #FF0070;
+  --button__color__hover: #ff007066;
+  --title__decor: #000028;
+  --main__title__of__blocks: #FF0070;
+  --main__paragraph: #F1B2CE;
+
+  --font__family: "IBM Plex mono", monospace;
+  --default__font__weight: 400;
+  --default__font__size: 18px;
+
+  --header__font__weight: 700;
+  --header__line__height: 83%;
+  
+  --header__font__size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --header__font__size-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+
+  --rec__display: block;
+}

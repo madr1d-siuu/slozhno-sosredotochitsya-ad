@@ -5,12 +5,69 @@
 */
 
 :root.theme-light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --cover__background__image: url(../images/cover-image-light.png);
+
+  --light__red: #ff8dcb;
+  --header__font__color: #ffc2e6;
+  --dark__blue: #353430;
+  --light__pink: #f1b2ce;
+  --main__background__color: #fff1f7;
+
+  --header__text__shadow: 4px 4px 0 #ff0070;
+  --footer__text__shadow: 2px 2px 0 #ff0070;
+
+  --button__color: #353430;
+  --button__color__hover: #32312d66;
+  --title__decor: #353430;
+  --main__title__of__blocks: #353430;
+  --main__paragraph: #353430;
+
+  --font__family: "IBM Plex mono", monospace;
+  --default__font__weight: 400;
+  --default__font__size: 18px;
+
+  --header__font__weight: 700;
+  --header__line__height: 83%;
+
+  --header__font__size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --header__font__size-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+
+  --rec__display: none;
 }
 
-.theme-light .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
+@media (prefers-color-scheme: light) {
+  :root {
+    --cover__background__image: url(../images/cover-image-light.png);
+
+    --light__red: #ff8dcb;
+    --header__font__color: #ffc2e6;
+    --dark__blue: #353430;
+    --light__pink: #f1b2ce;
+    --main__background__color: #fff1f7;
+
+    --header__text__shadow: 4px 4px 0 #ff0070;
+    --footer__text__shadow: 2px 2px 0 #ff0070;
+
+    --button__color: #353430;
+    --button__color__hover: #32312d66;
+    --title__decor: #353430;
+    --main__title__of__blocks: #353430;
+    --main__paragraph: #353430;
+
+    --font__family: "IBM Plex mono", monospace;
+    --default__font__weight: 400;
+    --default__font__size: 18px;
+
+    --header__font__weight: 700;
+    --header__line__height: 83%;
+
+    --header__font__size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+    --header__font__size-desktop: clamp(
+      7.5rem,
+      0.5625rem + 14.4531vw,
+      9.8125rem
+    );
+
+    --rec__display: none;
+  }
 }
